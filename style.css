@@ -1,0 +1,86 @@
+html{
+	box-sizing: border-box;
+}
+*, *::before, *::after {
+  box-sizing:inherit;
+}
+.page-wrapper{
+	max-width: 1200px;
+
+}
+#header,#main,#sidebar,#footer{
+	padding: 0.2em;
+}
+#header{
+	border: 1px dashed red;
+	background-color: gray;
+}
+#site-name{
+	padding: 0.1em;
+	width: 30%;
+}
+#site-name:hover{
+	background-color: lightgray;
+}
+#site-name a{
+	text-decoration: none;
+}
+#main{
+	width: 55%;
+	display: inline-block;
+	border: 1px dashed blue;
+}
+#menu{
+	list-style: none;
+	padding: 0;
+	margin-bottom: 0;
+}
+#menu li{
+	display: inline-block;
+	margin-right: 0.1em;
+	vertical-align: top;
+	position: relative;
+}
+#menu a{
+	text-decoration: none; 
+	background-color: blue;
+	color: white;
+	padding: 0.5em 0.8em;
+	border-radius: 15px 15px 0px 0px;
+}
+img{
+	max-width: 100%;
+	height: auto;
+	padding: 0.1em;
+	margin: auto;
+}
+
+#sidebar{
+	width: 45%;
+	float: right;
+	border: 1px dashed green;
+
+}
+#sidebar-menu{
+	list-style: none;
+	
+}
+#sidebar-menu li{
+	clear: both;
+}
+#sidebar-menu a{
+	text-decoration: none; 
+}
+#sidebar-menu p{
+	margin: auto;
+}
+.sidebar-images{
+	max-width: 200px;
+	float: left;
+}
+#footer{
+	clear:both;
+	text-align: center;
+	background-color: black;
+	color: white;
+}
